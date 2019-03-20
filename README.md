@@ -72,7 +72,7 @@ When the client makes a `POST` request to `/api/posts`:
   - cancel the request.
   - respond with HTTP status code `400` (Bad Request).
   - return the following JSON response: `{ errorMessage: "Please provide title and contents for the post." }`.
-
+ 
 - If the information about the _post_ is valid:
 
   - save the new _post_ the the database.
